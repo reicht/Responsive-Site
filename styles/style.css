@@ -1,8 +1,19 @@
 body {
   background-color: teal; }
 
+header {
+  height: 3em;
+  background-color: purple; }
+
 div {
   height: 4em;
-  width: 4em; }
+  width: 4em;
+  background-color: yellow;
+  margin: .5em; }
+
+section {
+  height: 30em;
+  background-color: red;
+  margin: .5em; }
 
 /*# sourceMappingURL=style.css.map */
