@@ -1,6 +1,7 @@
 body {
-  background-color: teal;
-  max-width: 478px; }
+  background-color: orange;
+  max-width: 478px;
+  line-height: 1.6; }
 
 header {
   height: 3em;
@@ -9,19 +10,20 @@ header {
   header div {
     float: left; }
 
-div {
-  height: 2em;
-  width: 2em;
-  background-color: yellow;
-  margin: .5em; }
+div:nth-child(odd) {
+  background-color: teal; }
 
 section {
   height: 30em;
-  background-color: red;
-  margin: .5em; }
+  margin: .5em;
+  background-color: red; }
 
 footer {
   background-color: black; }
+
+.top-image {
+  background-image: url("../resources/backgroundtree.jpg");
+  background-position: 10% 10%; }
 
 .topbar {
   height: 3em;
@@ -35,6 +37,10 @@ footer {
 
 .top-bar-link {
   margin: .75em 2em;
+  width: auto;
+  height: auto; }
+
+.info-plaque {
   width: auto;
   height: auto; }
 
