@@ -1,34 +1,23 @@
 body {
-  background-color: orange;
-  max-width: 478px;
-  line-height: 1.6; }
-
-header {
-  height: 3em;
-  background-color: purple;
-  overflow: hidden; }
-  header div {
-    float: left; }
-
-div:nth-child(odd) {
-  background-color: teal; }
+  line-height: 1.6;
+  padding: .5em; }
+  body a {
+    color: white; }
 
 section {
-  height: 30em;
-  margin: .5em;
   background-color: red; }
 
 footer {
   background-color: black; }
 
-.top-image {
-  background-image: url("../resources/backgroundtree.jpg");
-  background-position: 10% 10%; }
-
-.topbar {
+.top-bar {
   height: 3em;
-  background-color: black;
+  background-color: white;
   overflow: hidden; }
+  .top-bar div {
+    float: left; }
+  .top-bar p {
+    color: #546268; }
 
 .top-bar-logo-holder {
   margin: 0;
@@ -40,8 +29,78 @@ footer {
   width: auto;
   height: auto; }
 
+.top-image {
+  background-image: url("../resources/backgroundtree.jpg");
+  background-position: 10% 10%;
+  padding: 3em; }
+  .top-image p {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin: auto; }
+
+.plan-shelf .plan-plaque .plan-pane {
+  color: white; }
+.plan-shelf .plan-plaque .plan-choose {
+  background-color: white; }
+
+.price-text {
+  margin: 0;
+  font-size: 4em; }
+
+.plan-plaque {
+  background-color: white; }
+  .plan-plaque .plan-choose {
+    background-color: white; }
+  .plan-plaque div {
+    margin: 2em 1em 0 1em;
+    padding: 1.5em 2em 1.5em 2em; }
+
+.pane-five {
+  background-color: #519251; }
+
+.pane-twofive {
+  background-color: #2C4985; }
+
+.pane-fourfive {
+  background-color: black; }
+
+.plan-pane p {
+  text-align: center; }
+
+.plan-features {
+  list-style: none;
+  text-align: center;
+  padding: 0em;
+  margin: 0em; }
+  .plan-features li {
+    color: #546268;
+    display: block;
+    background-color: #F7F7F7;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7E7E7; }
+
+.plan-choose {
+  background-color: white; }
+
+.info-shelf {
+  background-color: white;
+  margin: 4em 2em; }
+
 .info-plaque {
   width: auto;
   height: auto; }
+
+.info-text {
+  color: #546268; }
+
+.bottom-bar p {
+  color: #546268; }
+
+@media (min-width: 479px) {
+  body, section, div, header, footer, p, h1, h2, h3, h4, h5, h6,
+  ul, li {
+    max-width: 478px !important; } }
 
 /*# sourceMappingURL=style.css.map */
