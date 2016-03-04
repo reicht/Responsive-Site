@@ -18,7 +18,7 @@ div {
 }
 
 section {
-  background-color: red;
+
 }
 
 footer {
@@ -70,10 +70,13 @@ footer {
     .plan-pane {
       color: white;
     }
-    .plan-choose {
-      background-color: white;
-    }
   }
+}
+
+.plan-name {
+  font-size: 1em;
+  letter-spacing: 4px;
+
 }
 
 .price-text {
@@ -81,19 +84,16 @@ footer {
   font-size: 4em;
 }
 
+.permonth {
+  color: white;
+  opacity: .5;
+  font-size: 1.25em;
+}
+
 .plan-plaque {
   background-color: white;
 
-  .plan-choose {
-    background-color: white;
-  }
-
-  div{
-    margin: 2em 1em 0 1em;
-    padding: 1.5em 2em 1.5em 2em;
-
-    }
-  }
+}
 
 .pane-five {
   background-color: #519251;
@@ -110,8 +110,12 @@ footer {
 
 .plan-pane {
 
+  margin: 2em 1em 0 1em;
+  padding: 1.5em 2em 1.5em 2em;
+
   p {
     text-align: center;
+    margin: 0 auto;
   }
 }
 
@@ -128,15 +132,38 @@ footer {
     border-style: solid;
     border-width: 1px;
     border-color: #E7E7E7;
+    margin: 0 1em;
+    padding: .75em;
   }
 }
 
-.plan-choose {
-  background-color: white;
+.plan-shelf {
+  .plan-plaque {
+    .plan-choose {
+
+      background-color: white;
+
+      .choose-button {
+        border-style: solid;
+        border-radius: 2em;
+        border-width: 1px;
+        border-color: $primary-text-color;
+        background-color: white;
+        height: 2em;
+        width: 6em;
+        margin: 1em auto;
+
+        p {
+          text-align: center;
+          margin-top: .25em;
+        }
+      }
+    }
+  }
 }
 
 .choose-button {
-
+  margin: 1em auto;
 }
 
 .info-shelf {
@@ -149,14 +176,24 @@ footer {
   height: auto;
 }
 
+.info-header {
+  p {
+    font-size: 1.15em;
+    letter-spacing: 4px;
+  }
+}
+
 .info-text {
   color: $primary-text-color;
 
 }
 
 .bottom-bar {
+  padding: 1em;
+
   p {
-    color: $primary-text-color;
+    color: gray;
+    text-align: center;
   }
 }
 

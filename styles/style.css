@@ -4,9 +4,6 @@ body {
   body a {
     color: white; }
 
-section {
-  background-color: red; }
-
 footer {
   background-color: black; }
 
@@ -41,20 +38,22 @@ footer {
 
 .plan-shelf .plan-plaque .plan-pane {
   color: white; }
-.plan-shelf .plan-plaque .plan-choose {
-  background-color: white; }
+
+.plan-name {
+  font-size: 1em;
+  letter-spacing: 4px; }
 
 .price-text {
   margin: 0;
   font-size: 4em; }
 
+.permonth {
+  color: white;
+  opacity: .5;
+  font-size: 1.25em; }
+
 .plan-plaque {
   background-color: white; }
-  .plan-plaque .plan-choose {
-    background-color: white; }
-  .plan-plaque div {
-    margin: 2em 1em 0 1em;
-    padding: 1.5em 2em 1.5em 2em; }
 
 .pane-five {
   background-color: #519251; }
@@ -65,8 +64,12 @@ footer {
 .pane-fourfive {
   background-color: black; }
 
-.plan-pane p {
-  text-align: center; }
+.plan-pane {
+  margin: 2em 1em 0 1em;
+  padding: 1.5em 2em 1.5em 2em; }
+  .plan-pane p {
+    text-align: center;
+    margin: 0 auto; }
 
 .plan-features {
   list-style: none;
@@ -79,10 +82,27 @@ footer {
     background-color: #F7F7F7;
     border-style: solid;
     border-width: 1px;
-    border-color: #E7E7E7; }
+    border-color: #E7E7E7;
+    margin: 0 1em;
+    padding: .75em; }
 
-.plan-choose {
+.plan-shelf .plan-plaque .plan-choose {
   background-color: white; }
+  .plan-shelf .plan-plaque .plan-choose .choose-button {
+    border-style: solid;
+    border-radius: 2em;
+    border-width: 1px;
+    border-color: #546268;
+    background-color: white;
+    height: 2em;
+    width: 6em;
+    margin: 1em auto; }
+    .plan-shelf .plan-plaque .plan-choose .choose-button p {
+      text-align: center;
+      margin-top: .25em; }
+
+.choose-button {
+  margin: 1em auto; }
 
 .info-shelf {
   background-color: white;
@@ -92,11 +112,18 @@ footer {
   width: auto;
   height: auto; }
 
+.info-header p {
+  font-size: 1.15em;
+  letter-spacing: 4px; }
+
 .info-text {
   color: #546268; }
 
-.bottom-bar p {
-  color: #546268; }
+.bottom-bar {
+  padding: 1em; }
+  .bottom-bar p {
+    color: gray;
+    text-align: center; }
 
 @media (min-width: 479px) {
   body, section, div, header, footer, p, h1, h2, h3, h4, h5, h6,
