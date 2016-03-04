@@ -1,21 +1,50 @@
-body{
+body {
   background-color: teal;
+  max-width: 478px;
 }
 
-header{
+header {
   height: 3em;
   background-color: purple;
+  overflow: hidden;
+
+  div {
+    float: left;
+  }
 }
 
-div{
-  height: 4em;
-  width: 4em;
+div {
+  height: 2em;
+  width: 2em;
   background-color: yellow;
   margin: .5em;
 }
 
-section{
+section {
   height: 30em;
   background-color: red;
   margin: .5em;
+}
+
+footer {
+  background-color: black;
+}
+
+
+.topbar {
+  height: 3em;
+  background-color: black;
+  overflow: hidden;
+}
+
+.top-bar-logo-holder {
+  margin: 0;
+  width: 7.5em;
+  height: 3em;
+}
+
+.top-bar-link {
+  margin: .75em 2em;
+  width: auto;
+  height: auto;
 }
