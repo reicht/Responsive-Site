@@ -2,7 +2,7 @@ $primary-text-color: #546268;
 
 body {
   line-height: 1.6;
-  padding: .5em;
+  padding: .25em;
 
   a {
     color: white;
@@ -30,8 +30,13 @@ footer {
   background-color: white;
   overflow: hidden;
 
+
   div {
     float: left;
+  }
+
+  div:nth-child(3) > p {
+    color: black;
   }
 
   p {
@@ -41,12 +46,13 @@ footer {
 
 .top-bar-logo-holder {
   margin: 0;
+  padding: 0 0 0 1em;
   width: 7.5em;
   height: 3em;
 }
 
 .top-bar-link {
-  margin: .75em 2em;
+  margin: 0 1em;
   width: auto;
   height: auto;
 }
@@ -54,7 +60,8 @@ footer {
 
 .top-image {
   background-image: url("../resources/backgroundtree.jpg");
-  background-position: 10% 10%;
+  background-size: 300%;
+  background-position: 2.5% 7.5%;
   padding: 3em;
 
   p {
@@ -62,11 +69,15 @@ footer {
     color: white;
     text-align: center;
     margin: auto;
+    text-shadow: 2px 2px 5px black;
   }
 }
 
 .plan-shelf {
   .plan-plaque {
+
+    max-width: 25em;
+
     .plan-pane {
       color: white;
     }
@@ -110,8 +121,9 @@ footer {
 
 .plan-pane {
 
-  margin: 2em 1em 0 1em;
+  margin: 2em auto 0 auto;
   padding: 1.5em 2em 1.5em 2em;
+  max-width: 304px;
 
   p {
     text-align: center;
@@ -132,8 +144,9 @@ footer {
     border-style: solid;
     border-width: 1px;
     border-color: #E7E7E7;
-    margin: 0 1em;
+    margin: 0 auto;
     padding: .75em;
+    max-width: 342px;
   }
 }
 

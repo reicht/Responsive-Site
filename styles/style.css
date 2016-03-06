@@ -1,6 +1,6 @@
 body {
   line-height: 1.6;
-  padding: .5em; }
+  padding: .25em; }
   body a {
     color: white; }
 
@@ -13,31 +13,38 @@ footer {
   overflow: hidden; }
   .top-bar div {
     float: left; }
+  .top-bar div:nth-child(3) > p {
+    color: black; }
   .top-bar p {
     color: #546268; }
 
 .top-bar-logo-holder {
   margin: 0;
+  padding: 0 0 0 1em;
   width: 7.5em;
   height: 3em; }
 
 .top-bar-link {
-  margin: .75em 2em;
+  margin: 0 1em;
   width: auto;
   height: auto; }
 
 .top-image {
   background-image: url("../resources/backgroundtree.jpg");
-  background-position: 10% 10%;
+  background-size: 300%;
+  background-position: 2.5% 7.5%;
   padding: 3em; }
   .top-image p {
     font-size: 2em;
     color: white;
     text-align: center;
-    margin: auto; }
+    margin: auto;
+    text-shadow: 2px 2px 5px black; }
 
-.plan-shelf .plan-plaque .plan-pane {
-  color: white; }
+.plan-shelf .plan-plaque {
+  max-width: 25em; }
+  .plan-shelf .plan-plaque .plan-pane {
+    color: white; }
 
 .plan-name {
   font-size: 1em;
@@ -65,8 +72,9 @@ footer {
   background-color: black; }
 
 .plan-pane {
-  margin: 2em 1em 0 1em;
-  padding: 1.5em 2em 1.5em 2em; }
+  margin: 2em auto 0 auto;
+  padding: 1.5em 2em 1.5em 2em;
+  max-width: 304px; }
   .plan-pane p {
     text-align: center;
     margin: 0 auto; }
@@ -83,8 +91,9 @@ footer {
     border-style: solid;
     border-width: 1px;
     border-color: #E7E7E7;
-    margin: 0 1em;
-    padding: .75em; }
+    margin: 0 auto;
+    padding: .75em;
+    max-width: 342px; }
 
 .plan-shelf .plan-plaque .plan-choose {
   background-color: white; }
