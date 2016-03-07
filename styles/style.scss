@@ -60,8 +60,8 @@ footer {
 
 .top-image {
   background-image: url("../resources/backgroundtree.jpg");
-  background-size: 300%;
   background-position: 2.5% 7.5%;
+  background-size: 1250px;
   padding: 3em;
 
   p {
@@ -86,13 +86,13 @@ footer {
 
 .plan-name {
   font-size: 1em;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 
 }
 
 .price-text {
   margin: 0;
-  font-size: 4em;
+  font-size: 6em;
 }
 
 .permonth {
@@ -155,6 +155,9 @@ footer {
     .plan-choose {
 
       background-color: white;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #E7E7E7;
 
       .choose-button {
         border-style: solid;
@@ -213,9 +216,69 @@ footer {
 
 
 @media (min-width: 479px) {
+
+
+  .top-image {
+    padding: 8em 2em 8em 2em;
+    max-width: 767px;
+
+    p {
+      font-size: 2.75em;
+      color: white;
+      text-align: center;
+      margin: auto;
+      text-shadow: 2px 2px 5px black;
+    }
+  }
+
+
+
+}
+
+@media (min-width: 767px) {
   body, section, div, header, footer, p, h1, h2, h3, h4, h5, h6,
   ul, li{
-    max-width: 478px !important;
+    max-width: 766px !important;
   }
+
+  .plan-shelf {
+    overflow: hidden;
+    padding: 1.5em 0;
+  }
+
+  .plan-shelf > .plan-plaque {
+    float: left;
+    margin: 0 1%;
+
+    .plan-pane {
+      width: 75%;
+    }
+
+  }
+
+  .info-shelf {
+    overflow: hidden;
+
+    .info-plaque {
+      margin: 0 10% 0 0;
+      float: left;
+      width: 40%;
+    }
+
+  }
+
+
+}
+
+@media (min-width: 979px) {
+  body, section, div, header, footer, p, h1, h2, h3, h4, h5, h6,
+  ul, li{
+    max-width: 978px !important;
+  }
+
+  .plan-shelf {
+    padding: 0 10%;
+  }
+
 
 }
